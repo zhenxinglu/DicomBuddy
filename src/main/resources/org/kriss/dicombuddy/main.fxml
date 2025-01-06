@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.kriss.dicombuddy.MainController">
+  <padding>
+    <Insets left="20.0" right="20.0" top="10.0" />
+  </padding>
+
+  <HBox alignment="CENTER" spacing="10.0">
+    <Button onAction="#onOpenDicomFileButtonClick" text="Open DICOM file" />
+    <Button onAction="#onSaveButtonClick" text="Save..." />
+    <Region HBox.hgrow="ALWAYS" />
+
+    <TextField fx:id="searchField" promptText="Search Tag..." />
+
+    <Label fx:id="searchResult" text="Search:" />
+
+    <CheckBox fx:id="searchByTagCheckBox" selected="true" text="by Tag" />
+    <CheckBox fx:id="searchByNameCheckBox" selected="true" text="by Name" />
+    <CheckBox fx:id="searchByValueCheckBox" selected="true" text="by Value" />
+    <Button fx:id="previousMatchButton" onAction="#onPreviousMatchButtonClick" text="Previous">
+      <tooltip>
+        <Tooltip text="Press SHIFT+F3 to go to previous match" />
+      </tooltip>
+    </Button>
+    <Button fx:id="nextMatchButton" onAction="#onNextMatchButtonClick" text="Next">
+      <tooltip>
+        <Tooltip text="Press F3 to go to next match" />
+      </tooltip>
+    </Button>
+
+  </HBox>
+
+  <TreeTableView fx:id="treeTableView" VBox.vgrow="ALWAYS">
+    <columns>
+      <TreeTableColumn fx:id="tagColumn" text="Tag" />
+      <TreeTableColumn fx:id="nameColumn" text="Name" />
+      <TreeTableColumn fx:id="vrColumn" text="VR" />
+      <TreeTableColumn fx:id="valueColumn" text="Value" />
+    </columns>
+    <columnResizePolicy>
+      <TreeTableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+    </columnResizePolicy>
+
+  </TreeTableView>
+  <HBox>
+    <Label text="Welcome to use DICOM Buddy!" />
+    <Region HBox.hgrow="ALWAYS" />
+    <Hyperlink onAction="#onContactAuthorClick" text="Contact Author" />
+  </HBox>
+
+</VBox>

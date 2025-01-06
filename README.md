@@ -20,7 +20,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="images/logo.png" alt="Logo" width="100" height="100">
+  <img src="https://github.com/zhenxinglu/DicomBuddy/blob/master/images/logo.png" alt="Logo" width="100" height="100">
 
 <h3 align="center">Dicom Buddy</h3>
 
@@ -66,7 +66,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![screenshot](images/screenshot.png)
+![screenshot](https://github.com/zhenxinglu/DicomBuddy/blob/master/images/screenshot.png)
 
 This JavaFX-based application allows users to view and edit DICOM files. It supports the following features:
 

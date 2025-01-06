@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div id="top"></div>
 
 
@@ -22,7 +21,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/zhenxinglu/DicomBuddy">
-    <img src="resources/icons/dicomBuddy.png" alt="Logo" width="100" height="100">
+    <img src="images/logo.png" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">Dicom Buddy</h3>
@@ -33,8 +32,6 @@
     <a href="https://github.com/zhenxinglu/DicomBuddy"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/zhenxinglu/DicomBuddy">View Demo</a>
-    ·
     <a href="https://github.com/zhenxinglu/DicomBuddy/issues">Report Bug</a>
     ·
     <a href="https://github.com/zhenxinglu/DicomBuddy/issues">Request Feature</a>
@@ -71,7 +68,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://gluonhq.com/products/javafx/)
+![screenshot](images/screenshot.png)
 
 This JavaFX-based application allows users to view and edit DICOM files. It supports the following features:
 
@@ -182,8 +179,5 @@ Project Link: https://github.com/zhenxinglu/DicomBuddy
 [issues-url]: https://github.com/zhenxinglu/DicomBuddy/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/zhenxinglu/DicomBuddy/blob/master/LICENSE.txt
-[product-screenshot]: images/DicomBuddy_screenshot.png
+[product-screenshot]: src/main/resources/icons/dicomBuddy.ico
 =======
-# DicomBuddy
-A tool to view and edit DICOM(Digital Imaging and Communications in Medicine) files
->>>>>>> d5082bb899a24a0152c9546214591a5452c890cf

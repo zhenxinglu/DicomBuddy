@@ -20,9 +20,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/zhenxinglu/DicomBuddy">
-    <img src="images/logo.png" alt="Logo" width="100" height="100">
-  </a>
+  <img src="images/logo.png" alt="Logo" width="100" height="100">
 
 <h3 align="center">Dicom Buddy</h3>
 
@@ -179,5 +177,4 @@ Project Link: https://github.com/zhenxinglu/DicomBuddy
 [issues-url]: https://github.com/zhenxinglu/DicomBuddy/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/zhenxinglu/DicomBuddy/blob/master/LICENSE.txt
-[product-screenshot]: src/main/resources/icons/dicomBuddy.ico
-=======
+

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div id="top"></div>
 
 
@@ -182,3 +183,7 @@ Project Link: https://github.com/zhenxinglu/DicomBuddy
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/zhenxinglu/DicomBuddy/blob/master/LICENSE.txt
 [product-screenshot]: images/DicomBuddy_screenshot.png
+=======
+# DicomBuddy
+A tool to view and edit DICOM(Digital Imaging and Communications in Medicine) files
+>>>>>>> d5082bb899a24a0152c9546214591a5452c890cf
